@@ -1,0 +1,17 @@
+require: rubocop-rspec
+require: rubocop-performance
+
+Layout/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/CaseEquality:
+  Enabled: false
+
+Naming/PredicateName:
+  Enabled: false
