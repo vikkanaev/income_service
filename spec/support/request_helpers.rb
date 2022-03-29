@@ -9,4 +9,8 @@ module RequestHelpers
 
     { 'Authorization' => "Bearer #{token}" }
   end
+
+  def header_for_token(token)
+    { 'Authorization' => "Bearer #{token}" }
+  end
 end
